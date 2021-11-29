@@ -13,3 +13,8 @@ html, body {
   color: white;
   font-family: Verdana, sans-serif;
 }
+
+.header * {
+  width: 100%;
+  margin: 0;
+}
