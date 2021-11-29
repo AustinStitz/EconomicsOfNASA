@@ -27,7 +27,7 @@ html, body {
 .content {
   padding-top: 100px;
   display: block;
-  height: 100%;
+  height: calc(100% - 100px);
 }
 
 .tile {
