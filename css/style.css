@@ -26,4 +26,5 @@ html, body {
 
 .content {
   margin-top: 100px;
+  display: block;
 }
