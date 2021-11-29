@@ -20,3 +20,7 @@ html, body {
   width: 100%;
   margin: 0;
 }
+
+.content {
+  margin-top: 20px;
+}
