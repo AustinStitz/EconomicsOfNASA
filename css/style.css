@@ -43,6 +43,10 @@ html, body {
   text-align: center;
 }
 
+.container {
+  text-align: center;
+}
+
 .tile canvas {
   text-align: center;
   with: 50%;
