@@ -37,3 +37,17 @@ html, body {
   background-color: #ff9933;
   color: black;
 }
+
+.tile h3 {
+  text-align: center;
+}
+
+.tile canvas {
+  text-align: center;
+  with: 50%;
+  height: 50%;
+}
+
+.tile p {
+  padding: 0 25%;
+}
