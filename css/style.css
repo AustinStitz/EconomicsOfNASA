@@ -26,9 +26,9 @@ html, body {
 
 .content {
   margin: 0;
-  padding-top: 58px;
+  padding-top: 48px;
   display: block;
-  height: calc(100% - 58px);
+  height: calc(100% - 48px);
 }
 
 .tile {
