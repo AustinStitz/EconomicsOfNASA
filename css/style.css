@@ -25,12 +25,14 @@ html, body {
 }
 
 .content {
-  padding-top: 100px;
+  margin: 0;
+  padding-top: 68px;
   display: block;
-  height: calc(100% - 100px);
+  height: calc(100% - 68px);
 }
 
 .tile {
+  margin: 0;
   height: 100%;
   background-color: #ff9933;
   color: black;
