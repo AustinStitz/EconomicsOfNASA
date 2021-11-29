@@ -12,6 +12,8 @@ html, body {
   background-color: red;
   color: white;
   font-family: Verdana, sans-serif;
+  position: fixed;
+  z-index: 30;
 }
 
 .header * {
