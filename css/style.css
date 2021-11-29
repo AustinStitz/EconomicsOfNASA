@@ -33,4 +33,5 @@ html, body {
 .tile {
   height: 100%;
   background-color: #ff9933;
+  color: black;
 }
