@@ -14,10 +14,35 @@
       <div class="tile">
         <h3>Production Possibilities</h3>
         <div class="container">
-          <canvas id="ppc"></canvas>
+          <canvas id="ppc" width=1000 height=500></canvas>
         </div>
         <p>NASA can either produce satellites or rockets. Rockets use significantly more resources per unit than satellites do, so the maximum output of rockets is less than the maximum output of satellites. Additionally, rockets and satellites mostly use similar resources (metal, computer chips, etc.) but rockets need a greater amount of engines than satellites do in order to reach orbit, and different types of physical capital are used for each too, especially given that larger-scale machinery is needed to produce rockets which are significantly larger than the satellites, so there is some increasing opportunity cost, but this is limited.</p>
       </div>
+      <div class="tile">
+        <h3>Supply and Demand</h3>
+        <div class="container">
+          <canvas id="snd" width=1000 height=500></canvas>
+        </div>
+        <p>NASA purchases launches from SpaceX. Here is the supply and demand curve for SpaceX rockets. The equilibrium price is $62 million and the equilibrium quantity is 30 launches (per year).</p>
+      </div>
     </div>
+
+    <script type="module">
+      import { drawGraph } from "./js/graph.js";
+      drawGraph(document.getElementById("ppc"), {
+          type: "ppc",
+          l1: "Rockets",
+          l2: "Satellites",
+          xaxis: 100,
+          yaxis: 10
+        });
+      drawGraph(document.getElementById("snd"), {
+          type: "snd",
+          l1: "Price (millions of dollars)",
+          l2: "Quantity",
+          xaxis: 100,
+          yaxis: 10
+        });
+    </script>
   </body>
 </html>
