@@ -48,7 +48,7 @@ html, body {
   text-align: center;
 }
 
-.tile canvas {
+.tile canvas, iframe {
   text-align: center;
   width: 50%;
   height: 50%;
