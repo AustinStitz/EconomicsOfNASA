@@ -58,3 +58,7 @@ html, body {
 .tile p {
   padding: 0 17%;
 }
+
+img {
+  height: 50%;
+}
